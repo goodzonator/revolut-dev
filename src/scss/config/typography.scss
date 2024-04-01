@@ -1,0 +1,14 @@
+/* ТИПОГРАФИЯ */
+
+.text-small {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: $text-color-secondary;
+}
+@media (max-width: 991px) {
+    .text-small {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
